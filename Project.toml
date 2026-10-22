@@ -1,0 +1,29 @@
+name = "HomotopicSparseSubspaceClustering"
+uuid = "06cf4591-5d73-41ef-82fd-360438f7a16a"
+authors = ["Florian Dubois"]
+version = "1.0.0-DEV"
+
+[deps]
+Arpack = "7d9fca2a-8960-54d3-9f78-7d1dccf2cb97"
+Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
+Hungarian = "e91730f6-4275-51fb-a7a0-7064cfbd3b39"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+ParallelKMeans = "42b8e9d4-006b-409a-8472-7f34b3fb58af"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+TSVD = "9449cd9e-2762-5aa3-a617-5413e99d722e"
+
+[compat]
+Arpack = "0.5.4"
+Distances = "0.10.12"
+Hungarian = "0.7.0"
+LinearAlgebra = "1.11.0"
+ParallelKMeans = "1.1.0"
+SparseArrays = "1.11.0"
+TSVD = "0.4.4"
+julia = "1.10.10"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
